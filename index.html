@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>자바스크립트 탭메뉴 만들기</title>
+	<link rel="stylesheet" href="style.css">
+	<script src='script.js' defer></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="heading">
+			<h1>읽었던 책 몇 줄</h1>
+			<input type="text" placeholder="What are you looking for?">
+		</div>
+		<div class="tabs">
+			<div data-alt='#item1' class='active'>text1</div>
+			<div data-alt='#item2'>text2</div>
+			<div data-alt='#item3'>text3</div>
+			<div data-alt='#item4'>text4</div>
+			<div data-alt='#item5'>text5</div>
+		</div>
+		<div class="text">
+			<div id='item1' class="active">
+				<h2>text1</h2>
+				<p>나도 때로는 고민거리가 있고 누군에겐가 진실한 마음을 털어놓고 싶을 때가 있어요.
+					<br><br>그러면 우리, 서로의 편지를 통해 둘만의 비밀을 가져보는 건 어떨까요?
+					<br><br>우리가 주고 받는 편지에는 누구에게도 말할 수 없는 진실만을 쓰겠다는 약속을 하는 거에요.
+				</p>
+			</div>
+			<div id='item2'>
+				<h2>text2</h2>
+				<p>세상의 99%는 거짓이에요.<br><br>저마다 행복하다는 얼굴로 내심 외로우면서도 외롭지 않은 척 거짓을 흩뿌리고 다니지요.</p>
+			</div>
+			<div id='item3'>
+				<h2>text3</h2>
+				<p>사랑하는 방법도 사랑받는 방법도 모른 채 나이만 먹어버렸다구!</p>
+			</div>
+			<div id='item4'>
+				<h2>text4</h2>
+				<p>너무도 쉽사리 누군가를 사랑해 버리는 이 시대에<br><br> 쉽게 사람을 사랑하지 못한다는 건 결코 나쁜 일은 아니야</p>
+			</div>
+			<div id='item5'>
+				<h2>text5</h2>
+				<p>네 스스로 바꾸려고 마음먹지 않으면 아무것도 변하지 않아.</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
